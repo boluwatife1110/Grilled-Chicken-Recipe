@@ -12,7 +12,10 @@ body{
     background-image: url(background-image.jpg);
     background-position: top;
     background-size: cover;
-    backdrop-filter: blur(5px);
+  
+}
+img{
+    width: 100%; 
 }
    /* default headings */
 h1,
@@ -49,11 +52,28 @@ h1{
   font-size: 2.4rem;
 
 }
-    /* Stylying the list */
-#Ingredients-list > ul > li {
-    margin-bottom: 1.2rem;
-  margin-left: 2rem;
-  padding-left: 1.6rem;
+  
+
+.flex{
+  
+    display: flex;
+    gap: 200px;
+
+}
+
+  /* Stylying the list */
+.first-list{
   font-size: 2rem;
   font-weight: 500px;
 }
+.second-list{
+  font-size: 2rem;
+  font-weight: 500px;
+  
+}
+.sub-images{
+  width: 200px;
+  height: 200px;
+  border-radius: 100px;
+  overflow: auto;
+  }
